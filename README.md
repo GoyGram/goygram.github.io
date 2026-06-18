@@ -1,1 +1,0 @@
-# GoyGram Wiki
