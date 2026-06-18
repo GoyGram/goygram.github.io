@@ -1,6 +1,7 @@
 1:"$Sreact.fragment"
-3:I[97367,["/_next/static/chunks/05-c3ty_6dwfk.js","/_next/static/chunks/2a35y8vvamogv.js"],"OutletBoundary"]
-4:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":["$L2",[["$","script","script-0",{"src":"/_next/static/chunks/0ir4hn50thz5z.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/2ufocm8pqj3g4.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"765OIwlHPTdIqVpNECvff"}
-2:E{"digest":"NEXT_HTTP_ERROR_FALLBACK;404"}
-5:E{"digest":"NEXT_HTTP_ERROR_FALLBACK;404"}
+2:I[53266,["/_next/static/chunks/05-c3ty_6dwfk.js","/_next/static/chunks/2a35y8vvamogv.js","/_next/static/chunks/2l_or30d1a2_f.js","/_next/static/chunks/0t6d1brza__6r.js","/_next/static/chunks/3-_m2f6n1sjxg.js","/_next/static/chunks/0ir4hn50thz5z.js","/_next/static/chunks/2ufocm8pqj3g4.js"],"DocsPage"]
+3:I[53266,["/_next/static/chunks/05-c3ty_6dwfk.js","/_next/static/chunks/2a35y8vvamogv.js","/_next/static/chunks/2l_or30d1a2_f.js","/_next/static/chunks/0t6d1brza__6r.js","/_next/static/chunks/3-_m2f6n1sjxg.js","/_next/static/chunks/0ir4hn50thz5z.js","/_next/static/chunks/2ufocm8pqj3g4.js"],"DocsBody"]
+4:I[97367,["/_next/static/chunks/05-c3ty_6dwfk.js","/_next/static/chunks/2a35y8vvamogv.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"toc":[],"children":["$","$L3",null,{"children":["$","p",null,{"children":"Перенесено из GoyGram GitHub Wiki."}]}]}],[["$","script","script-0",{"src":"/_next/static/chunks/0ir4hn50thz5z.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/2ufocm8pqj3g4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"yimlIFwDtyw8dS2oJ1YIX"}
+6:null
