@@ -33,7 +33,7 @@ jobs:
 
       - name: Publish static site
         run: |
-          rsync -a --delete --exclude '.git/' --exclude '.github/' docs-source/out/ ./
+          rsync -a --delete --exclude '.git/' --exclude '.github/' --exclude '*.txt' docs-source/out/ ./
           touch .nojekyll
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
