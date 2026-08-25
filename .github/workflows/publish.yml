@@ -1,0 +1,46 @@
+name: Build and publish GitHub Pages
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/checkout@v4
+        with:
+          repository: GoyGram/goygram-docs
+          path: docs-source
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: docs-source/package-lock.json
+
+      - name: Build documentation
+        working-directory: docs-source
+        run: |
+          npm ci
+          npm run build
+
+      - name: Publish static site
+        run: |
+          rsync -a --delete --exclude '.git/' --exclude '.github/' docs-source/out/ ./
+          touch .nojekyll
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No Pages changes"
+          else
+            git commit -m "deploy: sync GoyGram docs"
+            git push origin HEAD:main
+          fi
