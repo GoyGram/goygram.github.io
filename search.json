@@ -10187,6 +10187,19 @@
                                 }
                               ],
                               [
+                                "s",
+                                {
+                                  "w": "adds",
+                                  "s": "s",
+                                  "e": true,
+                                  "k": "s",
+                                  "d": [
+                                    170
+                                  ],
+                                  "c": []
+                                }
+                              ],
+                              [
                                 "i",
                                 {
                                   "w": "additional",
@@ -15309,6 +15322,19 @@
                             ],
                             "c": []
                           }
+                        ],
+                        [
+                          "a",
+                          {
+                            "w": "search_messages",
+                            "s": "arch_messages",
+                            "e": true,
+                            "k": "a",
+                            "d": [
+                              170
+                            ],
+                            "c": []
+                          }
                         ]
                       ]
                     }
@@ -20282,6 +20308,19 @@
                                         "s": "user",
                                         "e": true,
                                         "k": "u",
+                                        "d": [
+                                          170
+                                        ],
+                                        "c": []
+                                      }
+                                    ],
+                                    [
+                                      "f",
+                                      {
+                                        "w": "get_forum_topics",
+                                        "s": "forum_topics",
+                                        "e": true,
+                                        "k": "f",
                                         "d": [
                                           170
                                         ],
@@ -29737,14 +29776,39 @@
                               [
                                 "_",
                                 {
-                                  "w": "iter_dialogs",
-                                  "s": "_dialogs",
-                                  "e": true,
+                                  "w": "iter_",
+                                  "s": "_",
+                                  "e": false,
                                   "k": "_",
-                                  "d": [
-                                    170
-                                  ],
-                                  "c": []
+                                  "d": [],
+                                  "c": [
+                                    [
+                                      "d",
+                                      {
+                                        "w": "iter_dialogs",
+                                        "s": "dialogs",
+                                        "e": true,
+                                        "k": "d",
+                                        "d": [
+                                          170
+                                        ],
+                                        "c": []
+                                      }
+                                    ],
+                                    [
+                                      "s",
+                                      {
+                                        "w": "iter_search",
+                                        "s": "search",
+                                        "e": true,
+                                        "k": "s",
+                                        "d": [
+                                          170
+                                        ],
+                                        "c": []
+                                      }
+                                    ]
+                                  ]
                                 }
                               ],
                               [
@@ -34388,6 +34452,19 @@
                         ]
                       ]
                     }
+                  ],
+                  [
+                    "o",
+                    {
+                      "w": "vote_poll",
+                      "s": "ote_poll",
+                      "e": true,
+                      "k": "o",
+                      "d": [
+                        170
+                      ],
+                      "c": []
+                    }
                   ]
                 ]
               }
@@ -36580,6 +36657,7 @@
                   93,
                   159,
                   162,
+                  170,
                   234,
                   236,
                   242,
@@ -37124,6 +37202,7 @@
                 "k": "7",
                 "d": [
                   159,
+                  170,
                   288,
                   376,
                   390,
@@ -37154,6 +37233,19 @@
                         27,
                         159,
                         376
+                      ],
+                      "c": []
+                    }
+                  ],
+                  [
+                    "5",
+                    {
+                      "w": "75",
+                      "s": "5",
+                      "e": true,
+                      "k": "5",
+                      "d": [
+                        170
                       ],
                       "c": []
                     }
@@ -47902,63 +47994,71 @@
           "false": 0.017857142857142856
         },
         "170": {
-          "the": 0.017543859649122806,
-          "client": 0.017543859649122806,
-          "also": 0.017543859649122806,
-          "carries": 0.017543859649122806,
-          "convenience": 0.017543859649122806,
-          "layer": 0.017543859649122806,
-          "documented": 0.017543859649122806,
-          "in": 0.017543859649122806,
-          "sugar": 0.017543859649122806,
-          "api": 0.017543859649122806,
-          "docs": 0.017543859649122806,
-          "sugar-api": 0.017543859649122806,
-          "media": 0.017543859649122806,
-          "sends": 0.017543859649122806,
-          "send_photo": 0.017543859649122806,
-          "send_doc": 0.017543859649122806,
-          "send_audio": 0.017543859649122806,
-          "send_video": 0.017543859649122806,
-          "send_voice": 0.017543859649122806,
-          "send_sticker": 0.017543859649122806,
-          "send_animation": 0.017543859649122806,
-          "via": 0.017543859649122806,
-          "send_media": 0.017543859649122806,
-          "edit_msg": 0.017543859649122806,
-          "delete_msg": 0.017543859649122806,
-          "get_chat": 0.017543859649122806,
-          "get_user": 0.017543859649122806,
-          "cached": 0.017543859649122806,
-          "copy_msg": 0.017543859649122806,
-          "true": 0.017543859649122806,
-          "copymessage": 0.017543859649122806,
-          "on": 0.017543859649122806,
-          "bot": 0.017543859649122806,
-          "forward_msg": 0.017543859649122806,
-          "send_action": 0.017543859649122806,
-          "mark_read": 0.017543859649122806,
-          "send_reaction": 0.017543859649122806,
-          "pin_msg": 0.017543859649122806,
-          "ask": 0.017543859649122806,
-          "chat_id": 0.017543859649122806,
-          "text": 0.017543859649122806,
-          "send": 0.017543859649122806,
-          "wait": 0.017543859649122806,
-          "for": 0.017543859649122806,
-          "reply": 0.017543859649122806,
-          "and": 0.017543859649122806,
-          "app": 0.017543859649122806,
-          "iter_dialogs": 0.017543859649122806,
-          "limit": 0.017543859649122806,
-          "batch": 0.017543859649122806,
-          "folder": 0.017543859649122806,
-          "a": 0.017543859649122806,
-          "lazy": 0.017543859649122806,
-          "mtproto": 0.017543859649122806,
-          "iterator": 0.017543859649122806,
-          "over": 0.017543859649122806,
-          "dialogs": 0.017543859649122806
+          "0": 0.015384615384615385,
+          "7": 0.015384615384615385,
+          "75": 0.015384615384615385,
+          "the": 0.015384615384615385,
+          "client": 0.015384615384615385,
+          "also": 0.015384615384615385,
+          "carries": 0.015384615384615385,
+          "convenience": 0.015384615384615385,
+          "layer": 0.015384615384615385,
+          "documented": 0.015384615384615385,
+          "in": 0.015384615384615385,
+          "sugar": 0.015384615384615385,
+          "api": 0.015384615384615385,
+          "docs": 0.015384615384615385,
+          "sugar-api": 0.015384615384615385,
+          "media": 0.015384615384615385,
+          "sends": 0.015384615384615385,
+          "send_photo": 0.015384615384615385,
+          "send_doc": 0.015384615384615385,
+          "send_audio": 0.015384615384615385,
+          "send_video": 0.015384615384615385,
+          "send_voice": 0.015384615384615385,
+          "send_sticker": 0.015384615384615385,
+          "send_animation": 0.015384615384615385,
+          "via": 0.015384615384615385,
+          "send_media": 0.015384615384615385,
+          "edit_msg": 0.015384615384615385,
+          "delete_msg": 0.015384615384615385,
+          "get_chat": 0.015384615384615385,
+          "get_user": 0.015384615384615385,
+          "cached": 0.015384615384615385,
+          "copy_msg": 0.015384615384615385,
+          "true": 0.015384615384615385,
+          "copymessage": 0.015384615384615385,
+          "on": 0.015384615384615385,
+          "bot": 0.015384615384615385,
+          "forward_msg": 0.015384615384615385,
+          "send_action": 0.015384615384615385,
+          "mark_read": 0.015384615384615385,
+          "send_reaction": 0.015384615384615385,
+          "pin_msg": 0.015384615384615385,
+          "ask": 0.015384615384615385,
+          "chat_id": 0.015384615384615385,
+          "text": 0.015384615384615385,
+          "send": 0.015384615384615385,
+          "wait": 0.015384615384615385,
+          "for": 0.015384615384615385,
+          "reply": 0.015384615384615385,
+          "and": 0.015384615384615385,
+          "app": 0.015384615384615385,
+          "iter_dialogs": 0.015384615384615385,
+          "limit": 0.015384615384615385,
+          "batch": 0.015384615384615385,
+          "folder": 0.015384615384615385,
+          "a": 0.015384615384615385,
+          "lazy": 0.015384615384615385,
+          "mtproto": 0.015384615384615385,
+          "iterator": 0.015384615384615385,
+          "over": 0.015384615384615385,
+          "dialogs": 0.015384615384615385,
+          "adds": 0.015384615384615385,
+          "search_messages": 0.015384615384615385,
+          "iter_search": 0.015384615384615385,
+          "vote_poll": 0.015384615384615385,
+          "get_forum_topics": 0.015384615384615385
         },
         "171": {
           "the": 0.02564102564102564,
@@ -53492,14 +53592,14 @@
         "text": 249
       },
       "content": {
-        "0": 12,
+        "0": 13,
         "1": 13,
         "2": 9,
         "3": 8,
         "4": 7,
         "5": 5,
         "6": 1,
-        "7": 5,
+        "7": 6,
         "8": 3,
         "10": 1,
         "11": 2,
@@ -53519,6 +53619,7 @@
         "64": 1,
         "66": 1,
         "74": 3,
+        "75": 1,
         "90": 1,
         "123": 7,
         "127": 3,
@@ -54493,6 +54594,11 @@
         "folder": 2,
         "iterator": 1,
         "dialogs": 2,
+        "adds": 1,
+        "search_messages": 1,
+        "iter_search": 1,
+        "vote_poll": 1,
+        "get_forum_topics": 1,
         "direct": 1,
         "schema-driven": 1,
         "chunked": 1,
@@ -55232,7 +55338,7 @@
       "id": 1,
       "page_id": 1,
       "type": 1,
-      "content": 12.607748184019373,
+      "content": 12.627118644067796,
       "breadcrumbs": 0,
       "tags": 0,
       "url": 2.3317191283292966
@@ -56653,7 +56759,7 @@
         "167": 23,
         "168": 25,
         "169": 56,
-        "170": 57,
+        "170": 65,
         "171": 39,
         "172": 3,
         "173": 2,
@@ -58844,7 +58950,7 @@
         "id": "GoyGram-Client-Reference-c-8",
         "page_id": "GoyGram-Client-Reference",
         "type": "text",
-        "content": "The client also carries the convenience layer documented in [Sugar API](/docs/Sugar-API): media sends (`send_photo`/`send_doc`/`send_audio`/`send_video`/`send_voice`/`send_sticker`/`send_animation` via `send_media`), `edit_msg`, `delete_msg`, `get_chat`/`get_user` (cached), `copy_msg` (true `copyMessage` on Bot API), `forward_msg`, `send_action`, `mark_read`, `send_reaction`, `pin_msg`, `ask(chat_id, text)` (send + wait for the reply), and `app.iter_dialogs(limit, batch, folder)` — a lazy MTProto iterator over dialogs.",
+        "content": "The client also carries the convenience layer documented in [Sugar API](/docs/Sugar-API): media sends (`send_photo`/`send_doc`/`send_audio`/`send_video`/`send_voice`/`send_sticker`/`send_animation` via `send_media`), `edit_msg`, `delete_msg`, `get_chat`/`get_user` (cached), `copy_msg` (true `copyMessage` on Bot API), `forward_msg`, `send_action`, `mark_read`, `send_reaction`, `pin_msg`, `ask(chat_id, text)` (send + wait for the reply), and `app.iter_dialogs(limit, batch, folder)` — a lazy MTProto iterator over dialogs. 0.7.75 adds `search_messages`/`iter_search`, `vote_poll`, `get_forum_topics",
         "breadcrumbs": [],
         "tags": [],
         "url": "/docs/GoyGram-Client-Reference"
@@ -69131,7 +69237,7 @@
           ],
           [
             170,
-            "The client also carries the convenience layer documented in [Sugar API](/docs/Sugar-API): media sends (`send_photo`/`send_doc`/`send_audio`/`send_video`/`send_voice`/`send_sticker`/`send_animation` via `send_media`), `edit_msg`, `delete_msg`, `get_chat`/`get_user` (cached), `copy_msg` (true `copyMessage` on Bot API), `forward_msg`, `send_action`, `mark_read`, `send_reaction`, `pin_msg`, `ask(chat_id, text)` (send + wait for the reply), and `app.iter_dialogs(limit, batch, folder)` — a lazy MTProto iterator over dialogs."
+            "The client also carries the convenience layer documented in [Sugar API](/docs/Sugar-API): media sends (`send_photo`/`send_doc`/`send_audio`/`send_video`/`send_voice`/`send_sticker`/`send_animation` via `send_media`), `edit_msg`, `delete_msg`, `get_chat`/`get_user` (cached), `copy_msg` (true `copyMessage` on Bot API), `forward_msg`, `send_action`, `mark_read`, `send_reaction`, `pin_msg`, `ask(chat_id, text)` (send + wait for the reply), and `app.iter_dialogs(limit, batch, folder)` — a lazy MTProto iterator over dialogs. 0.7.75 adds `search_messages`/`iter_search`, `vote_poll`, `get_forum_topics"
           ],
           [
             109,
